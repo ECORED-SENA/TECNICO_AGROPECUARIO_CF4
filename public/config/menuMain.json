@@ -1,0 +1,36 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "id": 0,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",    
+    "path": "pages/introduccion.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "evaluacion_proyectos",
+    "title": "1. Evaluación de proyectos",    
+    "path": "pages/tema-1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "evaluacion_proyectos",
+        "title": "1.1 Evaluación financiera",
+        "anchor": "tema_1_1" 
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "evaluacion_proyectos",
+        "title": "1.2 Evaluación económica y social",
+        "anchor": "tema_1_2" 
+      }      
+    ]
+  }   
+]

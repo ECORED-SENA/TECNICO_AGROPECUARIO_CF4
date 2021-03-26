@@ -1,0 +1,18 @@
+.texto--resaltado {
+  font-size: 16pt;
+  font-weight: 700;
+  span {
+    color: #00838F;
+  }
+}
+
+.bullet {
+  i { 
+    position: relative;    
+    top:-3px;  
+    margin-right: 0px;
+    color: $cl-acento_01;
+    font-size: 20pt;
+    font-weight: 800;
+  }
+}

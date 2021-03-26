@@ -1,0 +1,31 @@
+.btn-colour-Orange {
+  padding: 0.5rem 2rem;
+  color: #fff;
+  background-color: #FF6B00;
+  border-color: #FF6B00;
+  font-weight: bold;
+  letter-spacing: 0.05em; 
+}
+
+.btn-colour-Orange:hover,
+.btn-colour-Orange:active,
+.btn-colour-Orange:focus,
+.btn-colour-Orange.active {
+  /* let's darken #004E64 a bit for hover effect */
+  background: #CC5600;
+  color: #ffffff;
+  border-color: #CC5600;
+}
+
+.btn-link:after{
+  background:#baca2a !important;  
+}
+
+.nav-tab-ecored .nav-tabs .nav-link.active, .nav-tab-ecored .nav-tabs .nav-item.show .nav-link {       
+  color: #13263F !important;
+}
+
+.nav-tab-ecored .nav-tabs .nav-link:not(.active) {
+  color: #13263F !important;
+  margin: 0px;
+}
